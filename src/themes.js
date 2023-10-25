@@ -1,0 +1,83 @@
+const t = {
+  spacing: {
+    0: 0,
+    0.5: 2,
+    1: 4,
+    1.5: 6,
+    2: 8,
+    2.5: 10,
+    3: 12,
+    3.5: 14,
+    4: 16,
+    5: 20,
+    6: 24,
+    7: 28,
+    8: 32,
+    9: 36,
+    10: 40,
+    11: 44,
+    12: 48,
+    14: 56,
+    16: 64,
+    20: 80,
+    24: 96,
+    28: 112,
+    32: 128,
+    36: 144,
+    40: 160,
+    44: 176,
+    48: 192,
+    52: 208,
+    56: 224,
+    60: 240,
+    64: 256,
+    72: 288,
+    80: 320,
+    96: 384,
+  },
+};
+
+const borders = {
+  roundedNone: t.spacing[0],
+  roundedSm: t.spacing[0.5],
+  rounded: t.spacing[1],
+  roundedLg: t.spacing[2] + "px",
+};
+
+export const lightTheme = {
+  borders: {
+    ...borders,
+  },
+  color: {
+    primary: "#570df8",
+    primaryContent: "#E0D2FE",
+    secondary: "#f000b8",
+    secondaryContent: "#FFD1F4",
+    accent: "#1ECEBC",
+    accentContent: "#07312D",
+    neutral: "#2B3440",
+    neutralContent: "#D7DDE4",
+    base100: "#ffffff",
+    base200: "#F2F2F2",
+    base300: "#E5E6E6",
+    baseContent: "#1f2937",
+  },
+};
+
+export const darkTheme = {
+  color: {
+    primary: "#661AE6",
+    primaryContent: "#ffffff",
+    secondary: "#D926AA",
+    secondaryContent: "#ffffff",
+    accent: "#1FB2A5C",
+    accentContent: "#ffffff",
+    neutral: "#2a323c",
+    neutralFocus: "#242b33",
+    neutralContent: "#A6ADBB",
+    base100: "#1d232a",
+    base200: "#191e24",
+    base300: "#15191e",
+    baseContent: "#A6ADBB",
+  },
+};
