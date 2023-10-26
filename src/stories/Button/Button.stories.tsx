@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Button, { SIZES, TYPES } from "./Button";
 
 const meta: Meta = {
-  title: "Button",
+  title: "☝️Actions/Button",
   component: Button,
   argTypes: {
     children: { control: "text" },
